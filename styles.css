@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #f7edef;
+
+}
+
+
+.titleSection {
+  min-width: 40%;
+  border: 3px solid red;
+}
+
+.backgroundImg {
+  background: url(megaDealsCanadaLogo.jpg);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* form */
+form {
+  margin-top: 50px;
+}
+
+.signUpSection {
+  align-self: center;
+}
+
+.greetings  p {
+  font-weight: bold;
+  font-size: 25px;
+  max-width: 80%;
+  padding-left: 50px;
+}
+
+.greetings  p:nth-child(2) {
+  padding-top: 20px;
+}
+
+.userInformation {
+  /* border: 1px solid black; */
+  background: white;
+  width: 100%;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.userInformation h1 {
+  flex-basis: 100vh;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+.userInformation p {
+  font-size: 11px;
+  margin-right: 17%;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: flex-end;
+  /* color: red; */
+  font-weight: bold;
+}
+
+.userInformation div > div > label {
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+}
+
+.userInformation div > div > input {
+  border: 1.5px solid lightgrey;
+  border-radius: 3px;
+  height: 25px;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  column-gap: 40px;
+  margin: 0px 0px 20px 0;
+}
+
+.firstName,
+.lastName,
+.email,
+.phoneNumber,
+.userPassword,
+.confirmPassword {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+
+
+/* Button */
+.createButton button {
+  margin: 20px 0px;
+  padding: 10px 40px;
+  border-radius: 7px;
+  background: darkgreen;
+  color: white;
+  border: none;
+}
+
+.createButton {
+  margin-left: 50px;
+
+}
+
+.logIn {
+  color: green;
+  font-weight: bold;
+}
+
+label span {
+  color: red;
+}
