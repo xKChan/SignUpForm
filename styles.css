@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "sans-serif";
+  src: url(fonts/lato-regular-webfont.woff) format("woff"),
+    url(fonts/lato-regular-webfont.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -10,19 +18,44 @@ body {
   width: 100%;
   min-height: 100vh;
   background: #f7edef;
-
 }
 
 
 .titleSection {
   min-width: 40%;
-  border: 3px solid red;
+  background: url(img/amzBackground.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 120% 100%;
+  background-position: right center;
 }
 
-.backgroundImg {
-  background: url(megaDealsCanadaLogo.jpg);
-  max-width: 100%;
-  max-height: 100%;
+.title {
+  width: 100%;
+  font: 60px "sans-serif", monospace;
+  text-align: center;
+  margin-top: 20%;
+  color: black;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  overflow: hidden;
+}
+
+.title img {
+  width: 180px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.lowerHalf {
+  color: red;
+  font-size: 70px;
+}
+
+.topHalf {
+  font-weight: bold;
 }
 
 /* form */
@@ -46,7 +79,6 @@ form {
 }
 
 .userInformation {
-  /* border: 1px solid black; */
   background: white;
   width: 100%;
   padding-left: 50px;
@@ -65,7 +97,6 @@ form {
   padding: 10px 0px 10px 0px;
   display: flex;
   justify-content: flex-end;
-  /* color: red; */
   font-weight: bold;
 }
 
