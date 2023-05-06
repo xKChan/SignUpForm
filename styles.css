@@ -148,9 +148,10 @@ form {
 
 }
 
-.logIn {
+.logIn a {
   color: green;
   font-weight: bold;
+  text-decoration: none;
 }
 
 label span {
